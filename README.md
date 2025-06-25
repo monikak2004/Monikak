@@ -42,5 +42,5 @@ A web app for bulk ordering groceries with roles for shopkeepers and distributor
 ---
 
 ## 📫 Let's Connect  
-- [LinkedIn](www.linkedin.com/in/monika-k-6a7643288)
+- [LinkedIn](https://www.linkedin.com/in/monika-k-6a7643288)
 - 📧 monikak3221@gmail.com
