@@ -13,10 +13,19 @@ I'm an aspiring **Data Analyst**, **UI/UX Designer**, and **Software Developer**
 
 ## 🚀 Projects
 
+### 📘 [ReadScope – Goodreads Reading Habit Visualizer](https://monikak.github.io/readscope)
+> A clean, interactive web app that transforms your Goodreads export into 5 insightful charts. Users can explore their top authors, yearly reading trends, average ratings, genre preferences, and more. Built entirely with vanilla JS and Chart.js.
+- **Features:** CSV upload, dark/light mode, single-screen layout, responsive design
+- **Tech Stack:** HTML, CSS, JavaScript, Chart.js, PapaParse
+- 🔗 [Live Demo](https://monikak.github.io/readscope)
+- 💻 [GitHub Repo](https://github.com/Monikak/readscope)
+
+---
+
 ### 📊 Focus Fuel – Study Tracker App
 > A smart web app designed for exam preparation. It helps users track their subjects, plan weekly study schedules, analyze performance, and stay consistent. Includes intelligent timetable generation and Google login.
 - **Tech Stack:** HTML, CSS, JavaScript, Firebase
-- 🔗 [GitHub Repo](https://github.com/Monikak/focus-fuel) *(replace with actual link when ready)*
+- 🔗 [GitHub Repo](https://github.com/Monikak/focus-fuel)
 - 🌐 Live Demo Coming Soon!
 
 ---
@@ -24,7 +33,7 @@ I'm an aspiring **Data Analyst**, **UI/UX Designer**, and **Software Developer**
 ### 🛒 Fresh Cart – B2B Ordering System
 > A provision store platform where shopkeepers bulk-order from distributors. Features catalog filtering, brand comparisons, cart handling, and checkout. Built for speed and simplicity.
 - **Tech Stack:** HTML, CSS, JavaScript, Firebase
-- 🔗 [GitHub Repo](https://github.com/Monikak/fresh-cart) *(replace with actual link when ready)*
+- 🔗 [GitHub Repo](https://github.com/Monikak/fresh-cart)
 - 🌐 Live Demo Coming Soon!
 
 ---
@@ -40,8 +49,6 @@ I'm an aspiring **Data Analyst**, **UI/UX Designer**, and **Software Developer**
 
 ---
 
----
-
 ## 📫 Let’s Connect
 
 - 🌐 [LinkedIn](https://www.linkedin.com/in/monika-k-6a7643288/)
@@ -50,3 +57,4 @@ I'm an aspiring **Data Analyst**, **UI/UX Designer**, and **Software Developer**
 ---
 
 ✨ *Thanks for visiting my profile! I'm always open to learning, collaborating, and building something impactful.*
+
