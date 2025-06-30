@@ -2,48 +2,103 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Monika K – Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
     body {
-      font-family: Arial, sans-serif;
       background-color: #f9fdf9;
       color: #2e7d4f;
       padding: 2rem;
-      line-height: 1.6;
     }
-    h1, h2 {
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #388e3c;
+    }
+    p.subtitle {
+      font-size: 1.2rem;
       color: #4caf50;
     }
-    .project {
-      margin-bottom: 2rem;
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
     }
-    a {
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card h3 {
+      color: #2e7d4f;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: #444;
+      margin-bottom: 0.8rem;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #ffffff;
+      background-color: #4caf50;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #666;
+    }
+    footer a {
       color: #2e7d4f;
       font-weight: bold;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <h1>👋 Hi, I'm Monika K</h1>
-  <p>Aspiring Data Analyst, UI/UX Designer & Developer</p>
+  <header>
+    <h1>👋 Hi, I'm Monika K</h1>
+    <p class="subtitle">Aspiring Data Analyst • UI/UX Designer • Web Developer</p>
+  </header>
 
-  <h2>🚀 Projects</h2>
+  <section class="projects">
+    <div class="card">
+      <h3>📊 Focus Fuel – Study Tracker App</h3>
+      <p>A smart study planner with syllabus tracking, test analysis, and weekly goals. Built using HTML, CSS, JS, and Firebase.</p>
+      <a href="https://github.com/Monikak2004/focus-fuel" target="_blank">🔗 View Project</a>
+    </div>
+    <div class="card">
+      <h3>🛒 Fresh Cart – B2B Ordering System</h3>
+      <p>Shopkeeper-distributor ordering platform with cart, catalog filters, and checkout. Built with HTML, CSS, JS, and Firebase.</p>
+      <a href="https://github.com/Monikak2004/fresh-cart" target="_blank">🔗 View Project</a>
+    </div>
+  </section>
 
-  <div class="project">
-    <h3>📊 Focus Fuel – Study Tracker App</h3>
-    <p>A smart study planner with syllabus tracking and test analytics.<br>
-    <a href="https://github.com/Monikak2004/focus-fuel" target="_blank">View on GitHub</a></p>
-  </div>
-
-  <div class="project">
-    <h3>🛒 Fresh Cart – B2B Ordering System</h3>
-    <p>A bulk-ordering web app for shopkeepers & distributors.<br>
-    <a href="https://github.com/Monikak2004/fresh-cart" target="_blank">View on GitHub</a></p>
-  </div>
-
-  <p>📫 Reach me at <a href="mailto:monikak3221@gmail.com">monikak3221@gmail.com</a><br>
-     🔗 <a href="https://www.linkedin.com/in/monika-k-6a7643288/" target="_blank">LinkedIn</a>
-  </p>
+  <footer>
+    📫 Reach me at <a href="mailto:monikak3221@gmail.com">monikak3221@gmail.com</a> | 
+    <a href="https://www.linkedin.com/in/monika-k-6a7643288/" target="_blank">LinkedIn</a>
+  </footer>
 </body>
 </html>
