@@ -35,6 +35,6 @@ This portfolio includes selected projects that reflect my skills in:
 - Freelance UI/UX Projects  
 - Remote, hybrid, or onsite roles
 
-Feel free to connect with me on [LinkedIn](www.linkedin.com/in/monika-k-6a7643288) or check out my [GitHub](https://github.com/monikak2004/Monikak)!
+Feel free to connect with me on [LinkedIn](htttps://www.linkedin.com/in/monika-k-6a7643288) or check out my [GitHub](https://github.com/monikak2004/Monikak)!
 
 
