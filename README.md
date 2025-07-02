@@ -1,60 +1,40 @@
-# 👋 Hi there, I'm Monika K!
+# Monika K – Portfolio
 
-[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/monika-k-6a7643288/)](https://www.linkedin.com/in/monika-k-6a7643288/)
-[![Gmail Badge](https://img.shields.io/badge/-monikak3221@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:monikak3221@gmail.com)](mailto:monikak3221@gmail.com)
+Welcome to my personal portfolio! I'm Monika, a data enthusiast with a creative edge for UI/UX design. I enjoy turning raw data into clear insights and crafting user-focused digital experiences.
 
----
+This portfolio includes selected projects that reflect my skills in:
 
-🌱 **About Me**
+- 📊 **Data Analysis** – Python (Pandas), Excel, SQL, Power BI
+- 💡 **Visualization** – Tableau, Seaborn, Matplotlib
+- 🎨 **UI/UX Design** – Figma, HTML/CSS, thoughtful user flows
+- ⚙️ **Web Tools** – Streamlit, Firebase, JavaScript
 
-I'm an aspiring **Data Analyst**, **UI/UX Designer**, and **Software Developer** with a strong passion for solving problems and building meaningful digital experiences. I'm currently exploring intelligent web applications, data visualization, and user-focused design. I love turning ideas into elegant solutions using clean code and creativity.
+## 🔍 Featured Projects
 
----
+### 1. [ReadScope](#)
+*Book reading habit analyzer using Goodreads data*  
+- Cleaned and visualized export data from Goodreads  
+- Built a dashboard to analyze reading frequency, genres, and trends  
+- Tools: Python, Pandas, Matplotlib, Streamlit
 
-## 🚀 Projects
+### 2. [Focus Fuel](#)
+*Smart study planner for competitive exams*  
+- Multi-step setup with subject tracking, weak points, and dynamic timetable  
+- Integrated analytics for weekly tests and study hours  
+- Tools: HTML, CSS, JavaScript, localStorage
 
-### 📘 [ReadScope – Goodreads Reading Habit Visualizer](https://monikak.github.io/readscope)
-> A clean, interactive web app that transforms your Goodreads export into 5 insightful charts. Users can explore their top authors, yearly reading trends, average ratings, genre preferences, and more. Built entirely with vanilla JS and Chart.js.
-- **Features:** CSV upload, dark/light mode, single-screen layout, responsive design
-- **Tech Stack:** HTML, CSS, JavaScript, Chart.js, PapaParse
-- 🔗 [Live Demo](https://monikak.github.io/readscope)
-- 💻 [GitHub Repo](https://github.com/Monikak/readscope)
-
----
-
-### 📊 Focus Fuel – Study Tracker App
-> A smart web app designed for exam preparation. It helps users track their subjects, plan weekly study schedules, analyze performance, and stay consistent. Includes intelligent timetable generation and Google login.
-- **Tech Stack:** HTML, CSS, JavaScript, Firebase
-- 🔗 [GitHub Repo](https://github.com/Monikak/focus-fuel)
-- 🌐 Live Demo Coming Soon!
-
----
-
-### 🛒 Fresh Cart – B2B Ordering System
-> A provision store platform where shopkeepers bulk-order from distributors. Features catalog filtering, brand comparisons, cart handling, and checkout. Built for speed and simplicity.
-- **Tech Stack:** HTML, CSS, JavaScript, Firebase
-- 🔗 [GitHub Repo](https://github.com/Monikak/fresh-cart)
-- 🌐 Live Demo Coming Soon!
+### 3. [Movie Trends Dashboard](#)
+*Interactive dashboard analyzing movie data*  
+- Insights on genres, revenue, and rating trends over time  
+- Tools: Python, Excel, Streamlit, Power BI
 
 ---
 
-## 🛠️ Tech Stack
+## 💼 Open to:  
+- Internships in Data or Product Analytics  
+- Freelance UI/UX Projects  
+- Remote, hybrid, or onsite roles
 
-![HTML](https://img.shields.io/badge/HTML5-e34f26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572b6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black)
-![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776ab?style=for-the-badge&logo=python&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-f24e1e?style=for-the-badge&logo=figma&logoColor=white)
+Feel free to connect with me on [LinkedIn](www.linkedin.com/in/monika-k-6a7643288) or check out my [GitHub](https://github.com/monikak2004/Monikak)!
 
----
-
-## 📫 Let’s Connect
-
-- 🌐 [LinkedIn](https://www.linkedin.com/in/monika-k-6a7643288/)
-- 📧 [monikak3221@gmail.com](mailto:monikak3221@gmail.com)
-
----
-
-✨ *Thanks for visiting my profile! I'm always open to learning, collaborating, and building something impactful.*
 
