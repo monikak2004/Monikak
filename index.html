@@ -3,172 +3,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Monika K – Data Analyst Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Monika K – Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
   <style>
-    :root {
-      --bg: #f8f9fa;
-      --text: #212529;
-      --accent: #0077b6;
-      --soft: #e0f0ff;
-      --accent-dark: #023e8a;
-    }
-    * {
+    body {
+      font-family: 'Inter', sans-serif;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
+      background-color: #f8fafc;
+      color: #1e293b;
     }
-    body {
-      background-color: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
       padding: 2rem;
     }
-    header {
-      text-align: center;
-      margin-bottom: 3rem;
-    }
-    header h1 {
-      font-size: 2.8rem;
-      color: var(--accent-dark);
-    }
-    header p {
-      font-size: 1.1rem;
-      color: var(--accent);
-      margin-top: 0.5rem;
-    }
-    .intro {
-      max-width: 800px;
-      margin: 1rem auto 3rem;
-      text-align: center;
-      font-size: 1.05rem;
-    }
-    .section-title {
-      font-size: 1.5rem;
-      border-left: 4px solid var(--accent);
-      padding-left: 0.75rem;
-      margin: 3rem 0 1.5rem;
-    }
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-    }
-    .project-card {
-      background: white;
-      border-radius: 12px;
-      padding: 1.5rem;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-    }
-    .project-card h3 {
+    h1 {
+      font-size: 2.5rem;
       margin-bottom: 0.5rem;
-      color: var(--accent-dark);
     }
-    .project-card .tools {
-      font-size: 0.85rem;
-      color: #555;
-      margin-bottom: 0.75rem;
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #475569;
+      margin-bottom: 2rem;
     }
-    .project-card p {
-      font-size: 0.95rem;
-      margin-bottom: 1rem;
+    .project {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem;
     }
-    .project-card a {
-      background: var(--accent);
-      color: white;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
-      font-weight: 600;
+    .project h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      color: #334155;
+    }
+    .project p {
+      margin: 0.5rem 0;
+    }
+    .btn {
       display: inline-block;
-      transition: background 0.3s;
-    }
-    .project-card a:hover {
-      background: var(--accent-dark);
-    }
-    .skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-    .skills span {
-      background: var(--soft);
-      padding: 0.4rem 0.8rem;
-      border-radius: 6px;
-      font-size: 0.9rem;
-      font-weight: 500;
-    }
-    .about {
-      max-width: 700px;
-      font-size: 1rem;
       margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #2e7d4f;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #256d3d;
     }
     footer {
-      margin-top: 4rem;
       text-align: center;
-      font-size: 0.9rem;
-    }
-    footer a {
-      color: var(--accent-dark);
-      font-weight: 600;
-      text-decoration: none;
+      margin-top: 3rem;
+      color: #64748b;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Monika K</h1>
-    <p>Turning data into decisions | Portfolio & Projects</p>
-  </header>
+  <div class="container">
+    <h1>Hi, I'm Monika 👋</h1>
+    <p class="subtitle">Data Analyst | UI/UX Designer | Open to Internships & Freelance Projects</p>
 
-  <section class="intro">
-    <p>I’m a data enthusiast passionate about analyzing information and turning it into actionable insights. With a background in development and a flair for UI/UX, I bring logic, clarity, and design to every project I touch.</p>
-  </section>
-
-  <section>
-    <h2 class="section-title">Projects</h2>
-    <div class="projects">
-      <div class="project-card">
-        <h3>📈 Sales Insight Dashboard</h3>
-        <div class="tools">Power BI, Excel</div>
-        <p>Interactive dashboard to visualize sales performance across regions, products, and time periods. Includes slicers, KPIs, and conditional formatting.</p>
-        <a href="#">View Case Study</a>
-      </div>
-      <div class="project-card">
-        <h3>📚 Focus Fuel – Study Tracker</h3>
-        <div class="tools">HTML, CSS, JS, Firebase</div>
-        <p>Full-stack study tracker with subject setup, syllabus progress tracking, and weekly planner. Aimed at exam-focused productivity.</p>
-        <a href="https://github.com/Monikak2004/focus-fuel" target="_blank">View on GitHub</a>
-      </div>
-      <div class="project-card">
-        <h3>📖 ReadScope: Book Analytics</h3>
-        <div class="tools">Javascript, CSS, HTML</div>
-        <p>Personal reading tracker using Goodreads export. Analyzes genre spread, author frequency, average pace, and completion trends.</p>
-        <a href="https://monikak.github.io/readscope" target="_blank">View Live</a>
-
-      </div>
+    <div class="project">
+      <h2>📘 ReadScope</h2>
+      <p>A personal reading habit analyzer using Goodreads data. Clean visuals, reading trends, and genre insights all in one dashboard.</p>
+      <p><strong>Tools:</strong> Python, Pandas, Streamlit, Matplotlib</p>
+      <a href="#" class="btn">View Project</a>
     </div>
-  </section>
 
-  <section>
-    <h2 class="section-title">Skills</h2>
-    <div class="skills">
-      <span>Python</span><span>Pandas</span><span>SQL</span><span>Power BI</span><span>Excel</span>
-      <span>Tableau</span><span>Firebase</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+    <div class="project">
+      <h2>🎯 Focus Fuel</h2>
+      <p>A smart study planner that tracks syllabus, weak points, and auto-generates timetables based on user inputs.</p>
+      <p><strong>Tools:</strong> HTML, CSS, JavaScript, localStorage</p>
+      <a href="#" class="btn">View Project</a>
     </div>
-  </section>
 
-  <section>
-    <h2 class="section-title">About Me</h2>
-    <div class="about">
-      <p>I'm currently pursuing BCA and exploring roles in data analysis and development. My projects reflect a passion for structure, design, and insight. I also enjoy puzzles, psychology books, and finding patterns in everyday life.</p>
+    <div class="project">
+      <h2>🎬 Movie Trends Dashboard</h2>
+      <p>Interactive dashboard analyzing movie trends across genres, ratings, and revenues over time.</p>
+      <p><strong>Tools:</strong> Python, Excel, Power BI</p>
+      <a href="#" class="btn">View Project</a>
     </div>
-  </section>
 
-  <footer>
-    📫 <a href="mailto:monikak3221@gmail.com">monikak3221@gmail.com</a> | 
-    <a href="https://www.linkedin.com/in/monika-k-6a7643288/" target="_blank">LinkedIn</a>
-  </footer>
+    <footer>
+      Let's connect: <a href="mail to:monikak2022@gmail.com">your.email@example.com</a> | <a href="https://linkedin.com/in/monika-k-6a7643288">LinkedIn</a>
+    </footer>
+  </div>
 </body>
 </html>
